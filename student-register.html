@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration | Mantra Study Hub</title>
+  <meta name="description" content="Register as a student and join a structured learning program with Mantra Study Hub.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-register">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Mantra Study Hub</a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu">Menu</button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="study-materials.html">Study Materials</a>
+        <a href="student-register.html">Registration</a>
+        <a href="timetable.html">Timetable</a>
+        <a href="faculty.html">Faculty</a>
+        <a href="announcements.html">Announcements</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-shell">
+    <section class="premium-hero">
+      <div>
+        <div class="hero-badges">
+          <span class="pill">Registration</span>
+          <span class="pill">Start learning</span>
+        </div>
+        <span class="eyebrow">Student Registration</span>
+        <h1>Join a learning journey built for your goals.</h1>
+        <p>Register today to receive course guidance, study support, and updates from our academic team.</p>
+      </div>
+      <div class="hero-panel">
+        <div class="hero-metric"><span>Fast onboarding</span><strong>5 min</strong></div>
+        <div class="hero-metric"><span>Support call</span><strong>Free</strong></div>
+        <div class="hero-metric"><span>Enrollment</span><strong>Open</strong></div>
+      </div>
+    </section>
+
+    <section class="register-layout">
+      <form id="registerForm" class="theme-form">
+        <div class="form-group">
+          <label for="studentName">Full Name</label>
+          <input id="studentName" name="studentName" type="text" required placeholder="Enter your full name">
+        </div>
+        <div class="form-group">
+          <label for="studentEmail">Email Address</label>
+          <input id="studentEmail" name="studentEmail" type="email" required placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="studentPhone">Phone Number</label>
+          <input id="studentPhone" name="studentPhone" type="tel" required placeholder="Enter your phone number">
+        </div>
+        <div class="form-group">
+          <label for="studentCourse">Preferred Course</label>
+          <select id="studentCourse" name="studentCourse" required>
+            <option value="">Select a program</option>
+            <option value="School Support">School Support</option>
+            <option value="Entrance Exam">Entrance Exam</option>
+            <option value="Study Skills">Study Skills</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="studentGrade">Current Grade / Standard</label>
+          <input id="studentGrade" name="studentGrade" type="text" required placeholder="e.g. Grade 10">
+        </div>
+        <div class="form-group">
+          <label for="studentMessage">Message</label>
+          <textarea id="studentMessage" name="studentMessage" rows="4" placeholder="Tell us what you want to improve"></textarea>
+        </div>
+        <button class="button button-primary" type="submit">Register Now</button>
+        <p id="registerResponse" class="form-response" aria-live="polite"></p>
+      </form>
+
+      <aside class="info-card">
+        <h2>Why register with us?</h2>
+        <ul>
+          <li>Personalized academic guidance</li>
+          <li>Weekly learning roadmap</li>
+          <li>Access to study resources and mentors</li>
+          <li>Regular updates on schedules and announcements</li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Mantra Study Hub</h3>
+        <p>Study support and coaching for students preparing for exams, projects, and academic success.</p>
+      </div>
+      <div>
+        <h4>Quick links</h4>
+        <nav class="footer-nav">
+          <a href="index.html">Home</a>
+          <a href="courses.html">Courses</a>
+          <a href="student-register.html">Register</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: info@mantrastudyhub.com</p>
+        <p>Phone: +91 98765 43210</p>
+      </div>
+    </div>
+    <div class="footer-note">© 2026 Mantra Study Hub. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
